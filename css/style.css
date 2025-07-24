@@ -18,6 +18,105 @@ a {
 .container {
   max-width: 1140px;
   margin: 0 auto;
+  padding: 0 5px;
 }
 
 /* common css end */
+
+/* sheard styles */
+.display-flex {
+  display: flex;
+}
+
+.text-primary-color {
+  color: #e95a08;
+}
+
+.text-secondary-color {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.text-tertiary-color {
+  color: #111111;
+}
+
+.inter-commont-fonts {
+  font-family: "Inter", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 27px;
+}
+
+.noto-common-fonts {
+  font-family: Noto Serif;
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.btn-primary {
+  color: rgb(255, 255, 255);
+  background-color: #e95a08;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+  padding: 26px 50px;
+  border: none;
+}
+
+/* header*/
+header {
+  height: 82px;
+  margin-top: 30px;
+}
+nav .main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav .logo {
+  width: 20%;
+}
+
+nav .menu {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.menu .nav-links {
+  gap: 48px;
+  align-items: center;
+}
+
+.menu li,
+li a {
+  color: #8987a1;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.menu .nav-links .cart {
+  color: black;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.menu .nav-links .cart i {
+  font-size: 18px;
+  height: 24px;
+  width: 24px;
+}
+
+.menu .nav-links li a {
+  transition: 0.4s;
+}
+.menu .nav-links li a:hover {
+  color: #252432;
+}

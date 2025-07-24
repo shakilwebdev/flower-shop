@@ -1,6 +1,12 @@
 /* 1. Extra small devices (phones, less than 576px) */
 @media screen and (max-width: 575.98px) {
   /* CSS for mobile phones */
+  .menu .nav-links li {
+    display: none;
+  }
+  .menu .nav-links .cart {
+    display: inline-block;
+  }
 }
 
 /* 2. Small devices (landscape phones, 576px and up) */
