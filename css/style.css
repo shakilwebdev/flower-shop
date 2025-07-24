@@ -41,7 +41,7 @@ a {
 }
 
 .noto-common-fonts {
-  font-family: Noto Serif;
+  font-family: "Noto Serif", serif;
   font-size: 50px;
   font-weight: 700;
   line-height: 68px;
@@ -229,4 +229,118 @@ li a {
     transform: rotate(360deg);
     opacity: 1;
   }
+}
+
+/* latest-deals-section */
+
+.latest-deals-section {
+  padding-bottom: 100px;
+}
+.latest-deals-section .latest-deals-section-titile {
+  text-align: center;
+}
+.latest-deals-section .latest-deals-section-subtitle {
+  text-align: center;
+  max-width: 888px;
+  margin: 0 auto;
+  margin-top: 16px;
+  margin-bottom: 70px;
+}
+.latest-deals-section-main img {
+  width: 100%;
+  height: 100%;
+}
+
+.latest-deals-section-main {
+  display: flex;
+  gap: 28px;
+}
+
+.deals-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.deals-card-1 {
+  position: relative;
+}
+.deals-card-1::before {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  content: "";
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.deals-card-1-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.deals-card-2 {
+  position: relative;
+}
+.deals-card-2::before {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  content: "";
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.deals-card-2-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.deals-card-3 {
+  position: relative;
+}
+.deals-card-3::before {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  content: "";
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.deals-card-3-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.latest-deals-section-main .deals-card-title {
+  font-family: "Noto Serif", serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 27px;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.latest-deals-section-main .shop {
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid #ffffff;
+  color: #ffffff;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 150%;
 }

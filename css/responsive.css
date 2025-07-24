@@ -110,6 +110,26 @@
   .trusted-seller .trusted-badge {
     display: none;
   }
+
+  /* latest-deals-section */
+
+  .latest-deals-section .latest-deals-section-subtitle {
+    margin-top: 16px;
+    margin-bottom: 50px;
+  }
+
+  .latest-deals-section {
+    padding-bottom: 40px;
+  }
+
+  .latest-deals-section-main {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .deals-cards {
+    gap: 20px;
+  }
 }
 
 /* 2. Small devices (landscape phones, 576px and up) */
