@@ -18,6 +18,10 @@
   .hero-section {
     margin-top: 28px;
   }
+  .hero-section .hero-text-content {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
 
   .hero-section-main {
     flex-direction: column-reverse;
@@ -32,6 +36,44 @@
     font-size: 14px;
     line-height: 17px;
   }
+
+  /* .plants-section */
+  .plants-section-main {
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .plants-section-title {
+    font-size: 22px;
+    line-height: 33px;
+  }
+
+  .plants-section-subtitle {
+    font-size: 14px;
+    line-height: 17px;
+    padding: 16px 0 28px 0;
+  }
+
+  .plants-section {
+    padding-top: 65px;
+    padding-bottom: 40px;
+  }
+
+  .plants-section .flower-title {
+    font-size: 16px;
+    margin: 10px 0 5px 0;
+  }
+  .plants-section .flower-price {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+.plants-section-main .card button {
+    width: 100%;
+    font-size: 12px;
+    padding: 10px 0px;
 }
 
 /* 2. Small devices (landscape phones, 576px and up) */

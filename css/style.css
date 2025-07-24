@@ -32,19 +32,20 @@ a {
   color: #e95a08;
 }
 
-.text-secondary-color {
+/* .text-secondary-color {
   color: rgba(0, 0, 0, 0.5);
 }
 
 .text-tertiary-color {
   color: #111111;
-}
+} */
 
 .inter-commont-fonts {
   font-family: "Inter", sans-serif;
   font-size: 22px;
   font-weight: 400;
   line-height: 27px;
+  color: rgba(0, 0, 0, 0.5);
 }
 
 .noto-common-fonts {
@@ -61,7 +62,8 @@ a {
   font-size: 16px;
   font-weight: 600;
   line-height: 19px;
-  padding: 26px 50px;
+  /* padding: 26px 50px; */
+  padding: 16px 50px;
   border: none;
 }
 
@@ -126,6 +128,8 @@ li a {
 
 .hero-section {
   margin-top: 120px;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .hero-section .hero-title {
@@ -138,5 +142,54 @@ li a {
   align-items: end;
 }
 .hero-section-main img {
+  width: 100%;
+}
+
+/* .plants-section */
+
+.plants-section {
+  padding-top: 130px;
+  padding-bottom: 83px;
+}
+
+.plants-section-main {
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+.plants-section-main .card img {
+  width: 100%;
+}
+
+.plants-section-title {
+  text-align: center;
+}
+
+.plants-section-subtitle {
+  max-width: 888px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 16px 0 49px 0;
+}
+
+.plants-section .flower-title {
+  color: rgb(17, 17, 17);
+  font-family: "Inter", sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 150%;
+  margin: 20px 0 10px 0;
+}
+.plants-section .flower-price {
+  color: rgb(17, 17, 17);
+  font-family: "Inter", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 150%;
+  margin-bottom: 20px;
+}
+
+.plants-section-main .card button {
   width: 100%;
 }
