@@ -56,6 +56,14 @@ a {
   line-height: 19px;
   padding: 16px 50px;
   border: none;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+
+.btn-primary:hover {
+  transform: scale(1.01);
+  box-shadow: 5px 8px 10px rgba(0, 0, 0, 0.2);
+  background-color: #d85a08;
 }
 
 /* header*/
@@ -345,6 +353,7 @@ li a {
   font-size: 16px;
   font-weight: 500;
   line-height: 150%;
+  cursor: pointer;
 }
 
 /* join-section */
@@ -397,11 +406,8 @@ li a {
   height: 50px;
 }
 
-.join-section-fields button {
-  cursor: pointer;
-}
-
 /* footer */
+
 footer {
   margin-bottom: 50px;
 }
@@ -417,6 +423,10 @@ footer .footer-main ul li {
   margin-bottom: 30px;
 }
 
+footer .footer-main ul li a:hover {
+  color: #252432;
+}
+
 footer .footer-socials ul {
   align-items: center;
   gap: 24px;
@@ -426,4 +436,11 @@ footer .footer-socials ul {
   max-width: 359px;
   margin: 0 auto;
   margin-top: 13px;
+}
+
+.footer-copyright {
+  text-align: center;
+  margin: 20px 0;
+  color: #8987a1;
+  font-size: 15px;
 }
