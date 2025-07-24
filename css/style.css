@@ -6,7 +6,7 @@
   box-sizing: border-box;
 }
 
-ul li {
+.menu ul li {
   list-style: none;
 }
 
@@ -31,14 +31,6 @@ a {
 .text-primary-color {
   color: #e95a08;
 }
-
-/* .text-secondary-color {
-  color: rgba(0, 0, 0, 0.5);
-}
-
-.text-tertiary-color {
-  color: #111111;
-} */
 
 .inter-commont-fonts {
   font-family: "Inter", sans-serif;
@@ -192,4 +184,49 @@ li a {
 
 .plants-section-main .card button {
   width: 100%;
+}
+
+/* plants-lover-section */
+.plants-lover-section {
+  padding-top: 130px;
+  padding-bottom: 83px;
+}
+.plants-lover-section .plants-lover-section-main {
+  gap: 60px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.plants-lover-section-main .trusted-seller {
+  width: 50%;
+  position: relative;
+}
+.plants-lover-section-main .plants-lover {
+  width: 50%;
+}
+.plants-lover-section-main .trusted-seller .flower-store {
+  width: 100%;
+}
+
+.plants-lover-section .plants-lover ul li {
+  padding: 20px 0;
+}
+.trusted-seller .trusted-badge {
+  position: absolute;
+  top: -123px;
+  right: -90px;
+  width: 286px;
+  height: 286px;
+  animation: rotateBadge 10s linear infinite;
+}
+
+@keyframes rotateBadge {
+  0% {
+    transform: rotate(0deg);
+    opacity: 1;
+  }
+  100% {
+    transform: rotate(360deg);
+    opacity: 1;
+  }
 }

@@ -70,10 +70,46 @@
     margin-bottom: 10px;
   }
 
-.plants-section-main .card button {
+  .plants-section-main .card button {
     width: 100%;
     font-size: 12px;
     padding: 10px 0px;
+  }
+
+  /* plants-lover-section */
+
+  .plants-lover-section {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .plants-lover-section .plants-lover-section-main {
+    flex-direction: column;
+    gap: 18px;
+  }
+
+  .plants-lover-title {
+    font-size: 24px;
+    line-height: 33px;
+  }
+
+  .plants-lover-section .plants-lover ul li {
+    padding: 16px 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+  }
+
+  .plants-lover-section-main .trusted-seller {
+    width: 100%;
+  }
+  .plants-lover-section-main .plants-lover {
+    width: calc(100% - 50px);
+  }
+
+  .trusted-seller .trusted-badge {
+    display: none;
+  }
 }
 
 /* 2. Small devices (landscape phones, 576px and up) */
