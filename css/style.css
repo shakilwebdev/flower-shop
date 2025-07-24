@@ -51,6 +51,7 @@ a {
   font-family: Noto Serif;
   font-size: 50px;
   font-weight: 700;
+  line-height: 68px;
 }
 
 .btn-primary {
@@ -119,4 +120,23 @@ li a {
 }
 .menu .nav-links li a:hover {
   color: #252432;
+}
+
+/* hero-section */
+
+.hero-section {
+  margin-top: 120px;
+}
+
+.hero-section .hero-title {
+  font-size: 65px;
+  line-height: 89px;
+  margin-bottom: 13px;
+}
+
+.hero-section-main {
+  align-items: end;
+}
+.hero-section-main img {
+  width: 100%;
 }

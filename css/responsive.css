@@ -1,17 +1,48 @@
 /* 1. Extra small devices (phones, less than 576px) */
 @media screen and (max-width: 575.98px) {
   /* CSS for mobile phones */
+
+  /* header */
   .menu .nav-links li {
     display: none;
   }
   .menu .nav-links .cart {
     display: inline-block;
   }
+
+  nav .logo img {
+    width: 100%;
+  }
+
+  /* hero-section */
+  .hero-section {
+    margin-top: 28px;
+  }
+
+  .hero-section-main {
+    flex-direction: column-reverse;
+    gap: 28px;
+  }
+
+  .hero-section .hero-title {
+    font-size: 24px;
+    line-height: 33px;
+  }
+  .hero-section .inter-commont-fonts {
+    font-size: 14px;
+    line-height: 17px;
+  }
 }
 
 /* 2. Small devices (landscape phones, 576px and up) */
 @media screen and (min-width: 576px) and (max-width: 767.98px) {
   /* CSS for small devices */
+
+  /* hero-section */
+  .hero-section-main {
+    flex-direction: column-reverse;
+    gap: 28px;
+  }
 }
 
 /* 3. Medium devices (tablets, 768px and up) */
