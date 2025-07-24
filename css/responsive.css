@@ -135,7 +135,6 @@
 
   .join-section {
     padding: 100px 0;
-    margin-bottom: 100px;
   }
   .join-section-title {
     font-size: 20px;
@@ -150,6 +149,7 @@
   .join-section-fields .btn-primary {
     font-size: 16px;
     line-height: 19px;
+    padding: 16px 15px;
   }
 
   /* footer */
