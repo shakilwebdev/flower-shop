@@ -54,7 +54,6 @@ a {
   font-size: 16px;
   font-weight: 600;
   line-height: 19px;
-  /* padding: 26px 50px; */
   padding: 16px 50px;
   border: none;
 }
@@ -93,6 +92,15 @@ li a {
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
+  transition: 0.4s;
+}
+
+.menu .nav-links li a.active {
+  color: #252432;
+}
+
+.menu .nav-links li a:hover {
+  color: #252432;
 }
 
 .menu .nav-links .cart {
@@ -107,13 +115,6 @@ li a {
   font-size: 18px;
   height: 24px;
   width: 24px;
-}
-
-.menu .nav-links li a {
-  transition: 0.4s;
-}
-.menu .nav-links li a:hover {
-  color: #252432;
 }
 
 /* hero-section */
@@ -187,6 +188,7 @@ li a {
 }
 
 /* plants-lover-section */
+
 .plants-lover-section {
   padding-top: 130px;
   padding-bottom: 83px;
@@ -385,6 +387,7 @@ li a {
   justify-content: center;
   align-items: center;
 }
+
 .join-section-fields input {
   border: none;
   padding: 15px 20px;
@@ -394,10 +397,15 @@ li a {
   height: 50px;
 }
 
+.join-section-fields button {
+  cursor: pointer;
+}
+
 /* footer */
 footer {
   margin-bottom: 50px;
 }
+
 footer .footer-main {
   display: grid;
   grid-template-columns: repeat(4, 1fr);

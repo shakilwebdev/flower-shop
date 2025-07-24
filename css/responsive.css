@@ -32,6 +32,7 @@
     font-size: 24px;
     line-height: 33px;
   }
+
   .hero-section .inter-commont-fonts {
     font-size: 14px;
     line-height: 17px;
@@ -65,6 +66,7 @@
     font-size: 16px;
     margin: 10px 0 5px 0;
   }
+
   .plants-section .flower-price {
     font-size: 16px;
     margin-bottom: 10px;
@@ -136,6 +138,7 @@
   .join-section {
     padding: 100px 0;
   }
+
   .join-section-title {
     font-size: 20px;
     line-height: 27px;
@@ -146,6 +149,7 @@
     width: 218px;
     padding: 15px 10px;
   }
+
   .join-section-fields .btn-primary {
     font-size: 16px;
     line-height: 19px;
