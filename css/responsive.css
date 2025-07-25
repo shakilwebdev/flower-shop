@@ -354,6 +354,178 @@
 /* 3. Medium devices (tablets, 768px and up) */
 @media screen and (min-width: 768px) and (max-width: 991.98px) {
   /* CSS for tablets */
+
+  /* header */
+  .menu .nav-links {
+    gap: 35px;
+  }
+
+  /* hero-section */
+  .hero-section-main {
+    flex-direction: column-reverse;
+    gap: 28px;
+  }
+
+  .hero-section {
+    margin-top: 28px;
+  }
+  .hero-section .hero-text-content {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .hero-section-main {
+    flex-direction: column-reverse;
+    gap: 28px;
+  }
+
+  .hero-section .hero-title {
+    font-size: 26px;
+    line-height: 35px;
+  }
+
+  .hero-section .inter-commont-fonts {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  /* .plants-section */
+  .plants-section-main {
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+
+  .plants-section-title {
+    font-size: 25px;
+    line-height: 35px;
+  }
+
+  .plants-section-subtitle {
+    font-size: 16px;
+    line-height: 20px;
+    max-width: 483px;
+    margin: 0 auto;
+    padding: 16px 0 28px 0;
+  }
+
+  .plants-section {
+    padding-top: 65px;
+    padding-bottom: 40px;
+  }
+
+  .plants-section .flower-title {
+    font-size: 16px;
+    margin: 10px 0 5px 0;
+  }
+
+  .plants-section .flower-price {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  .plants-section-main .card button {
+    width: 100%;
+    font-size: 12px;
+    padding: 10px 0px;
+  }
+
+  /* plants-lover-section */
+
+  .plants-lover-section {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .plants-lover-section .plants-lover-section-main {
+    flex-direction: column;
+    gap: 18px;
+  }
+
+  .plants-lover-title {
+    font-size: 26px;
+    line-height: 35px;
+  }
+
+  .plants-lover-section .plants-lover ul li {
+    padding: 14px 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+  }
+
+  .plants-lover-section-main .trusted-seller {
+    width: 100%;
+  }
+  .plants-lover-section-main .plants-lover {
+    width: calc(100% - 50px);
+  }
+
+  .trusted-seller .trusted-badge {
+    display: none;
+  }
+
+  /* latest-deals-section */
+
+  .latest-deals-section .latest-deals-section-titile {
+    font-size: 26px;
+    line-height: 35px;
+  }
+  .latest-deals-section .latest-deals-section-subtitle {
+    margin-top: 16px;
+    margin-bottom: 50px;
+    max-width: 488px;
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .latest-deals-section {
+    padding-bottom: 40px;
+  }
+
+  .latest-deals-section-main {
+    flex-direction: row;
+    gap: 20px;
+  }
+
+  .deals-cards {
+    gap: 20px;
+  }
+
+  /* join-section */
+
+  .join-section {
+    padding: 100px 0;
+  }
+
+  .join-section-title {
+    font-size: 25px;
+    line-height: 28px;
+    text-align: center;
+  }
+
+  .join-section-fields input {
+    width: 290px;
+    padding: 15px 10px;
+  }
+
+  .join-section-fields .btn-primary {
+    font-size: 16px;
+    line-height: 19px;
+    padding: 16px 15px;
+  }
+
+  /* footer */
+  footer .footer-main {
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: baseline;
+    margin-left: 20px;
+  }
+
+  .footer-description {
+    margin-bottom: 40px;
+  }
 }
 
 /* 4. Large devices (desktops, 992px and up) */
