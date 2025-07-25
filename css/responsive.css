@@ -115,9 +115,15 @@
 
   /* latest-deals-section */
 
+  .latest-deals-section .latest-deals-section-titile {
+    font-size: 24px;
+    line-height: 33px;
+  }
   .latest-deals-section .latest-deals-section-subtitle {
     margin-top: 16px;
     margin-bottom: 50px;
+    font-size: 14px;
+    line-height: 17px;
   }
 
   .latest-deals-section {
